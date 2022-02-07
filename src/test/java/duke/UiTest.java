@@ -32,9 +32,9 @@ public class UiTest {
         ui.showExitMessage();
         outStream.flush();
         String lines = outStream.toString();
-        assertEquals("    ____________________________________________________________\n"
-                + "     Bye. Hope to see you again soon!\n"
-                + "    ____________________________________________________________\n\n", lines);
+        assertEquals("    ____________________________________________________________\r\n"
+                + "     Bye. Hope to see you again soon!\r\n"
+                + "    ____________________________________________________________\r\n\r\n", lines);
     }
 
     @Test
